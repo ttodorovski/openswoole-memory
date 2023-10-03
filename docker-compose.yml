@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  openswoole:
+    image: openswoole/swoole:4.11-alpine
+    entrypoint: php /app/cmd/server.php
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app

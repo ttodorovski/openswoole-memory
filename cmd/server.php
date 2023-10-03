@@ -21,7 +21,7 @@ $logger  = new Logger(
 	'memory-tester-boot',
 	[
 		new StreamHandler('php://stdout'),
-		new StreamHandler(fopen(__DIR__ . '/../server_sample.log', 'w'))
+		new StreamHandler(fopen(__DIR__ . '/../server.log', 'w'))
 	],
 	[new MemoryUsageProcessor(true)]
 );
