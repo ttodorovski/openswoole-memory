@@ -1,0 +1,32 @@
+openswoole
+
+Open Swoole => enabled
+Author => Open Swoole Group <hello@openswoole.com>
+Version => 4.11.1
+Built => Mar 12 2023 15:39:32
+coroutine => enabled with boost asm context
+epoll => enabled
+eventfd => enabled
+signalfd => enabled
+cpu_affinity => enabled
+spinlock => enabled
+rwlock => enabled
+sockets => enabled
+openssl => OpenSSL 3.0.2 15 Mar 2022
+dtls => enabled
+http2 => enabled
+json => enabled
+curl-native => enabled
+mutex_timedlock => enabled
+pthread_barrier => enabled
+futex => enabled
+mysqlnd => enabled
+async_redis => enabled
+
+Directive => Local Value => Master Value
+swoole.display_errors => On => On
+swoole.enable_coroutine => On => On
+swoole.enable_library => On => On
+swoole.enable_preemptive_scheduler => Off => Off
+swoole.unixsock_buffer_size => 8388608 => 8388608
+swoole.use_shortname => On => On

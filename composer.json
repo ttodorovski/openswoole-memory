@@ -1,0 +1,25 @@
+{
+    "name": "tomazt/openswoole-memory",
+    "description": "OpenSwoole Memory consumption research",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "^7.0",
+        "monolog/monolog": "^3.4"
+    },
+    "require-dev": {
+        "openswoole/ide-helper": "~4.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomazt\\OpenswooleMemory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomaz Todorovski",
+            "email": "tomaz.todorovski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
